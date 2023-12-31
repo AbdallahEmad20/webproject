@@ -1,0 +1,1070 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #151515;
+ /* padding: 10px 150px !important; */
+}
+
+.navbar   .navbar-toggler {
+    background-color: #5CD2B9;
+   
+  }
+  
+  .navbar .navbar-toggler:focus{
+    box-shadow: none  ;
+  
+  }
+  .navbar-toggler-icon{
+    background-color: red !important;
+  }
+  
+.navbar .nav-item .nav-link{
+  color: #fff;
+  margin-left: 30px;
+  font-weight: 500;  
+ cursor: pointer;
+ font-size: 17px;
+}
+
+
+
+
+ .navbar .nav-item .nav-link:hover {
+color: #5CD2B9 ;
+}
+
+/* Start Hero section */
+
+.Hero{
+    background-image: url("./assets/portrait-of-a-woman-with-artistic-make-up-P7ZSU5P.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.HeroOverlay{
+   /* border: 2px solid blue;  */
+height: 100%;
+max-width: 100%;
+background-image: linear-gradient(to left, rgba(92, 210, 185, 0.23)  5%   , #02010100 50%   ); 
+display: flex;
+align-items: center;
+
+}
+
+.MyContent{
+    /* border: 2px solid red; */
+}
+
+  .HeroOverlay .MyContent p:first-of-type , .secTwoCon p:first-of-type , .secThreeCon p:first-of-type , .sectionFiveCon p:first-of-type
+  ,.titlee p:first-of-type ,.secNineCon p:first-of-type  ,.formcontent p:first-of-type , .SectionSix .devInfo p{
+   font-weight: bold;
+   font-size: 20px; 
+   color:#5CD2B9;
+ letter-spacing: 4px;
+   
+ ;
+
+}
+
+.HeroOverlay .MyContent p:last-of-type , .secTwoCon p:last-of-type , .pp , .secThreeCon p , .sectionFiveCon p:last-of-type  , .overlaySecNine p:last-of-type
+  , .formcontent p{
+ color: #AAAAAA;
+ line-height: 29px;
+ font-weight: 500;
+ margin-top: 30px;
+
+ }
+
+.HeroOverlay h3 {
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.Line , .MyLine{
+    position: relative;
+}
+.Line::after , .MyLine::after{
+content: '';    
+position: absolute;
+background-color: #5CD2B9;
+width: 100px;
+height: 3px;
+
+}
+
+.Line::after {
+ 
+  margin-bottom: 10px;
+}
+.iconsDiv{
+    display: flex;
+    align-items: baseline;
+    margin-top: 35px;
+    width: 100%;
+}
+.IconSpan{
+    width: 80px;
+    height: 80px;
+    background-color: #5CD2B9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-right: 40px;
+}
+.IconSpan i{
+    color: #fff;
+    font-size: 25px;
+}
+ .con .myP{
+   color: #fff !important;
+ position: relative;
+ font-size: 35px;
+width: fit-content;
+}
+
+.con .myP::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -12px;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #ffff;
+}
+
+
+
+  .con h4{
+    color: #5CD2B9;
+    font-weight: 600;
+font-size: 14px;
+margin-right: 40px;
+}
+
+
+
+
+/* End Hero Section */
+
+
+/* Start section Two */
+.SecTwo{
+   
+    background-color: #000;
+    padding: 80px 0;
+}
+.secTwoCon{
+    margin-bottom: 40px;
+
+}
+
+.secTwoCon button{
+    width: 130px;
+    height: 60px;
+    background-color: #5CD2B9;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.secTwoCon button:hover{
+background-color: #000;
+border: 2px solid  #5CD2B9;
+transform: translateY(-15px);
+}
+
+.secTwoCon p:first-of-type{
+    margin-top: 40px;
+}
+.secTwoCon h3{
+color: #fff;
+font-size: 50px;
+font-weight:bold;
+
+}
+.secTwoCon  p:last-of-type , .pp{
+    font-size: 15px;
+    width: 90%;
+}
+.pp{
+    margin-top: 60px;
+}
+.MyLine::after {
+    margin-top: 20px;
+}
+
+
+
+.boxaia{
+    text-align: center;
+    padding: 30px;
+    margin-right: 10px;
+    background-color: #0C0C0C;
+transition: all 0.3s ease;
+}
+.boxaia:hover{
+    transform: translateY(-10px);
+}
+.boxaia h3{
+    color:#fff;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.boxaia p{
+    color: #AAAAAA;
+    font-weight: 600;
+}
+.specialbox{
+background-image: linear-gradient(to top, rgba(66, 222, 188, 0.2)  5%   , #02010100 90%   ); 
+
+}
+
+.changeColorOne:hover{
+    background-image: linear-gradient(to top, rgba(66, 222, 188, 0.2)  5%   , #02010100 90%   ); 
+
+}
+
+.specialbox:hover{
+    background-image: linear-gradient( #0c0c0c , #0c0c0c  ); 
+
+}
+
+/* End Section two */
+
+
+/* Start section Three */
+.SectionThree{
+    background-color: #0c0c0c ;
+    padding-top: 80px;
+}
+.secThreeCon  h3 , .sectionFiveCon h3 , .secNineCon h3{
+font-size: 60px;
+color: #fff;
+margin-bottom: 15px;
+}
+
+.secThreeCon .p:last-of-type{
+    margin-top: 20px !important;
+}
+
+.TwoDivs{ 
+    margin-top: 50px;
+}
+
+.conaia{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.conaia .devaia{
+    margin-left: 20px;
+}
+.TwoDivs .conaia h3{
+font-size: 22px;
+margin-bottom: -20px;
+font-weight: bold;
+}
+
+
+ .TwoDivs .conaia p{
+    font-size: 15px;
+    color: #AAAAAA ;
+    letter-spacing: 0;
+}
+
+
+.IamgeDiv img{
+   max-width: 100%;
+   filter: brightness(80%);
+}
+/* end Section three */
+
+/* Start Section four */
+
+.sectionFour{
+background: url("./assets/1.jpg") no-repeat  center  center / cover;
+background-attachment: fixed;
+}
+
+.overlaysecfive{
+padding: 50px 0;
+height: 100%;
+background-image: linear-gradient(to right, rgba(92, 210, 185, 0.23)     , rgb(21, 21, 21 , 0.8) 80%   ); 
+
+}
+
+
+.box {
+    text-align: center;
+    
+}
+
+.box .number h3{
+    font-size: 75px;
+    color: #5CD2B9;
+margin-top: 20px;
+}
+
+
+.box .number i{
+font-size: 30px;
+color: #fff;
+margin-left: 5px;
+}
+.box p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* End section four */
+
+
+/* start section five */
+
+
+/* End section five */
+.sectionImage{
+background: url("./assets/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg") no-repeat  center  center / cover;
+background-attachment: fixed;
+}
+.overlaySecImage{
+    padding: 80px 0;
+    height: 100%;
+background-image: linear-gradient(to left, rgba(92, 210, 185, 0.23)     , rgb(21, 21, 21 , 0.8) 80%   ); 
+}
+
+.overlaySecImage .container .row{
+
+justify-content: center;
+
+}
+.imagefive{
+width: 100%;
+}
+
+ .imagefive  img{
+    width: 100%;
+    filter:grayscale(100%);
+}
+
+.imagefive  img:hover{
+    filter:grayscale(0);
+
+}
+/* End Section four */
+
+
+/* Start Section five */
+
+
+.sectionFive{
+    padding: 90px 0;
+    background-color: #000;
+}
+
+.sectionFiveCon p:last-of-type{
+    margin-top: 70px;
+}
+
+.statement{
+margin-top: 50px;
+}
+.statement .stateOne i{
+color: #5CD2B9;
+font-size: 22px;
+}
+.stateOne{
+    margin-bottom: 15px;
+}
+.statement .stateOne h6{
+color: #fff;
+margin-left: 10px;
+font-size: 17px;
+}
+
+.secFiveImages{
+    margin-top: 20px;
+}
+
+
+/* End Section five */
+
+
+/* Start section six */
+
+.SectionSix{
+    background-color: #000;
+    padding: 100px 0;
+}
+
+.devInfo h3{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Paradiv p{
+    color:#AAAAAA;
+    line-height: 29px;
+    font-weight: 600;
+    margin-top:150px;
+    font-size: 17px;
+
+}
+
+.statement .stateOne span{
+    width: 30px;
+    height: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    border-radius: 50%;
+    background-color: #5CD2B9;
+}
+
+.statement .stateOne span i{
+color: #000 ;
+font-size: 17px;
+}
+
+
+.DivAll .VideoMe{
+position: relative;
+cursor: pointer;
+}
+
+
+
+.videoMeOverlay{
+    background: url("./assets/11.jpg") no-repeat  center  center / cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videoMeOverlay svg{
+color: #fff;
+}
+
+.specialOneVideo {
+    margin-top:  50px;
+}
+
+.backdiff{
+    background: url("./assets/apelah.jpg") no-repeat  center  center / cover !important;
+
+}
+.specialTwoVideo{
+
+    margin-top: 130px;
+}
+/* End section six */
+
+
+/* Start section seven */
+.sectionSeven{
+background-color: #111111;
+padding: 80px 0;
+background: url("./assets/Bg-1.jpg") no-repeat  center  center / cover;
+background-attachment: fixed;
+}
+
+.myCardaia{
+    background-color: #151515;
+    padding: 20px;
+    margin: 35px 20px;
+}
+ .myCardcon h2{
+font-size: bold;
+color: #fff;
+margin-bottom: 20px;
+font-size: 23px;
+
+}
+.myCardcon p:first-of-type{
+    color: #5CD2B9;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.myCardcon p:last-of-type{
+color: #AAAAAA;
+margin-top: 50px;
+line-height: 30px;
+}
+
+.myCardaia img{
+   margin-top: -45px;
+}
+.iconsmyCard{
+    margin-top: 50px;
+}
+.iconsmyCard i{
+    font-size: 16px;
+    color: #5CD2B9;
+    margin-left: 14px;
+}
+.cardaiacon{
+    border: 2px solid blue;
+}
+
+
+.titlee{
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .titlee  h3{
+    font-size: 50px;
+    color: #ffff;
+  }
+  .titlee p{
+    color: #AAAAAA;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+  }
+  .titlee .LineME::after{
+    transform: translateX(-50%);
+    margin-top: 10px;
+  }
+/* End section Seven */
+
+
+/* Start section Eight */
+
+.sectionEight{
+    background-color: #000;
+    padding: 80px 0;
+}
+
+.sectionEight .photo{
+    margin-bottom:  20px;
+}
+
+/* End section Eight */
+
+
+
+/* Start Section Nine */
+
+.SectionNine{
+    
+    background: url("./assets/adadad.jpg") no-repeat  center  center / cover;
+    background-attachment: fixed;
+}
+
+.overlaySecNine{
+    padding: 80px 0;
+background-color: rgba(21, 21, 21 , 0.6);
+width: 100%;
+height: 100%;
+}
+ .overlaySecNine p:last-of-type{
+margin-top: 40px;
+}
+.overlaySecNine button{
+width: 250px;
+height: 55px;
+color: #fff;
+border: none;
+background-color: #5CD2B9;
+font-size: 18px;
+margin-top: 40px;
+}
+
+
+
+
+.SwiperJs{
+    display: flex;
+    align-items: center;
+}
+.swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.swiper-slide {
+  background: rgba(22, 22, 22 , 0.8);
+  padding: 20px;
+ 
+}
+
+.swiper-slide i{
+color: #5CD2B9;
+font-size: 40px;
+font-weight: bold;
+}
+.swiper-slide .Para{
+    margin-top: -8px !important;
+}
+.swiperContent{
+    margin-top: 30px;
+}
+.swiperContent  img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-right: 14px;
+}
+
+.swiperContent .devaiaswip h4{
+    color: #fff;
+    font-weight: 600;
+}
+
+.swiperContent .devaiaswip h6{
+    color: #5CD2B9;
+
+}
+
+/* End Section Nine */
+
+
+
+
+
+
+
+
+/* Start Section Cards */
+
+.secCards{
+    background-color: #000;
+    padding: 80px 0px;
+}
+
+
+
+
+  .secCards .cardd{
+    border: none;
+    text-align: left;
+    margin-top: 25px;
+  margin: 0 10px;
+  }
+  
+  .secCards  .cardd-body h3{ 
+  color: #5CD2B9;
+  padding: 10px 0;
+  font-size: 25px;
+  }
+
+  .secCards  .cardd-body p{ 
+color: #AAAAAA;
+font-weight: 500;
+  }
+  .secCards .cardd .imageDevaia {
+    overflow: hidden;
+  }
+  
+  .secCards .cardd img{
+    transition: all 0.7s ease;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .secCards .cardd img:hover{
+  transform: scale(1.1);
+  
+  }
+  .secCards .cardd .cardd-body {
+    padding-left: 0;
+  }
+  .secCards .cardd .cardd-body a{
+   display: block;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+  margin-top: 15px;
+  }
+  .secCards .card .cardd-body p{
+  color: #777777;
+  line-height: 28px;
+  margin-top: 20px;
+  }
+  
+  
+  .finalDiv{
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconsNum {
+    display: flex;
+    align-items: center;
+   margin-right: 40px;
+  color: #777777;
+  }
+  .iconsNum p{
+    margin-top: 15px;
+  }
+  
+  
+.finalDiv i{
+    color: #5CD2B9;
+}
+
+.finalDiv p{
+    color: #fff;
+    margin-left: 10px;
+}
+/* End Section Cards */
+
+
+/* Start Section Form  */
+
+.formm{
+    background: url("./assets/bg-2.png") no-repeat  center  center / cover;   
+background-color: #0C0C0C;
+
+
+    padding: 100px 0;
+
+}
+
+
+form{
+    height: 100%;
+    border: 2px solid #5CD2B9;
+    padding: 20px;
+}
+form input{
+    height: 50px;
+
+}
+form textarea{
+    height: 180px ;
+}
+
+form input ,form textarea{
+    width: 100%;
+    background-color: #151515;
+    border: 1px solid #5CD2B9;
+}
+
+form label{
+color: #5CD2B9;
+font-size: 16px;
+font-weight: 600;
+}
+form label:not(:first-of-type){
+    margin-top: 30px;
+
+}
+
+.formm button{
+   width: 100%;
+
+   height: 60px;
+   background-color: #5CD2B9;
+   color: #fff;
+   font-size: 20px; 
+margin-top: 50px;
+transition: all 0.5s ease-in-out;
+
+}
+.formm button:hover{
+background-color: transparent;
+border: 1px solid #5CD2B9;
+}
+.formcontent h3{
+   color: #fff;
+   font-size: 55px; 
+   margin-bottom: 20px;
+}
+
+/* End Section Form */
+
+
+
+
+footer{
+ 
+padding:  60px 0 20px 0;
+    background: radial-gradient(
+      ellipse 60% 50%,
+      #0F221E 8% ,
+       #000
+    );
+    /* position: relative; */
+
+}
+
+.foot , .iconsFooter{
+    text-align: center;
+}
+.foot img{
+    width: 220px;
+    margin-top: 40px;
+}
+
+.foot ul{
+    display: flex;
+    flex-wrap: wrap;
+margin-top: 70px;
+justify-content: center;
+}
+
+.foot  ul a{
+    color: #5CD2B9;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+.foot  ul  a:hover{
+color: #fff;
+}
+
+.foot p{
+   color: #fff;
+   line-height: 27px;
+  width: 40%;
+  margin-top: 50px;
+}
+
+ .iconsFooter , .foot p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconsFooter{
+margin-top: 60px;
+width: fit-content;
+
+}
+
+.iconsFooter i{
+color: #5CD2B9;
+font-size: 25px;
+margin-right: 40px;
+}
+
+footer  h6{  
+color: #AAAAAA;
+text-align: center;
+margin-top: 100px;
+}
+
+/* End footer */
+
+
+
+/* =============================== */
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px){
+    
+    .navbar img{
+        width: 150px;
+    }
+
+    .Hero{
+ 
+     background-position: 80% 20%;
+   
+    }
+   
+    .Hero img {
+        max-width: 70%;
+    }
+    .HeroOverlay h3 {
+        font-size: 40px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .HeroOverlay .MyContent p:first-of-type{
+        font-size: 17px;
+    } 
+    
+    .Twodiv {
+        margin-bottom: 20px;
+    }
+
+    .secThreeCon  h3 , .sectionFiveCon h3 , .secNineCon h3 , .SectionSix h3{
+        font-size: 40px !important;
+        color: #fff;
+        }
+ 
+        .VideoMe{
+           margin-top: 30px !important;
+        }
+}
+
+
+
+@media only screen and (max-width : 769px){
+    .foot p{
+      width: 100%;
+    
+    }
+    }
+    
+
+    @media only screen and ((max-width : 1200px ) and (min-width :992px)){
+    
+    .myCardaia p:last-of-type{
+        margin-top: 15px;
+    }
+    .cardaia  .iconsmycard{
+        margin-top: 20px;
+    
+    
+    }
+    .cardaia .myCardcon h2 {
+        font-size: 21px;
+    }
+
+ 
+   
+    }
+    
+    
+    
+    
+    
+    @media only screen and (max-width : 992px){
+        .imagia , .specialImage{
+            height: 430px;
+            margin-bottom: 30px;
+        }
+        .cardaia{
+            padding: 30px 0;
+        }
+        .myCardcon{
+            margin-bottom: -10px;
+        }
+         .SectionNine .SwiperJs{
+            margin-top: 40px;
+        }
+         .SwiperJs .swiper{
+            height: 100%;
+            
+        }
+        .sectionFour .box{
+            margin-bottom: 50px;
+        }
+       .SectionSix  .Paradiv p{
+     margin-top: 20px;
+    } 
+    .titlee p{
+width: 100% !important;
+    }
+.titlee h3 {
+font-size: 40px !important;
+    }
+    .secCards .row .cardd{
+        margin-bottom: 30px;
+    }
+
+    .secCards .finalDiv .iconsNum p{
+        font-size: 13px;
+    }
+    footer .foot p{
+        width: 100%;
+    }
+
+    .navbar .navbar-nav {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      
+      }
+      
+     .navbar .navbar-collapse {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    }
+
+
+}
+
+/* gallary */
+
+
+.cd__main{
+    display: block !important;
+    background-color: #000 !important;
+ } 
+
+  
+  .main .container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+   justify-content: center;
+   align-items: center;
+ }
+ .main .card {
+   color: #252a32;
+   border-radius: 2px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+ }
+ .main .card-image {
+   position: relative;
+   display: block;
+   width: 100%;
+   padding-top: 70%;
+ }
+ .main .card-image img {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+
+ .card-image{
+    overflow: hidden;
+ }
+
+ .card-image img{
+    transition: all 0.4s ease-in-out;
+
+ }
+ .card-image:hover img{
+transform: scale(1.1);
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .main .container {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 1rem;
+   }
+ }
